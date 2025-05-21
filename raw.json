@@ -17,14 +17,23 @@
         "geosite:discord",
         "geosite:youtube",
         "geosite:tiktok",
-        "geosite:signal"
+        "geosite:signal",
+        "domain:sephora.com",
+        "domain:sephora.de",
+        "domain:sephora.fr"
     ],
     "ProxyIp": [
         "geoip:discord",
-        "geoip:threema"
+        "geoip:threema",
+        "198.154.182.0/24",
+        "159.127.48.0/20",
+        "159.127.128.0/17",
+        "159.127.44.0/22",
+        "159.127.64.0/18"
     ],
     "BlockSites": [
-        "geosite:win-spy"
+        "geosite:win-spy",
+        "geosite:torrent"
     ],
     "BlockIp": [],
     "DomainStrategy": "AsIs",
