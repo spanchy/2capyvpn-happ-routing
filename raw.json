@@ -8,7 +8,7 @@
     "DomesticDNSType": "DoH",
     "DomesticDNSDomain": "https://dns.adguard.com/dns-query",
     "DomesticDNSIP": "94.140.15.15",
-    "Geoipurl": "https://github.com/hydraponique/roscomvpn-geoip/releases/latest/download/geoip.dat",
+    "Geoipurl": "https://github.com/spanchy/2capyvpn-geoip/releases/latest/download/geoip.dat",
     "Geositeurl": "https://github.com/spanchy/2capyvpn-geosite/releases/latest/download/geosite.dat",
     "LastUpdated": "1747422000",
     "DnsHosts": {},
@@ -23,6 +23,7 @@
     "ProxyIp": [
         "geoip:discord",
         "geoip:threema",
+        "geoip:ban-ru",
         "198.154.182.0/24",
         "159.127.48.0/20",
         "159.127.128.0/17",
