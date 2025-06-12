@@ -6,9 +6,9 @@
 ### [Статическая ссылка на Raw-DEEPLINK (посмотреть на диплинк-ссылку)](https://raw.githubusercontent.com/spanchy/2capyvpn-happ-routing/refs/heads/main/raw.deeplink)
 ### [Статическая ссылка на Raw-JSON (голый JSON для примера конфига)](https://raw.githubusercontent.com/spanchy/2capyvpn-happ-routing/refs/heads/main/raw.json)
 
-## Преимущества (спасибо [@hydraponique](https://github.com/hydraponique/)):
-1) [Кастомный geoip](https://github.com/hydraponique/roscomvpn-geoip) - добавлены все "пророссийские" диапазоны IP (даже забугорные) от VK Company (Mail.Ru, OK, VK, My.Games/VK Games) и Яндекса (Yandex, Yandex.Cloud, Yandex.Disk итд). Добавлены диапазоны и IP-адреса: **Discord** (в "proxy", спасибо, [@fatyzzz](https://github.com/fatyzzz/)), **Threema** (в "proxy")
-2) [Кастомный geosite](https://github.com/hydraponique/roscomvpn-geosite) - куча обновлений по сервисам, урезан максимально под этот роутинг, ни на что более не способен, т.е. чего нет в конфиге роутинга - значит выпилено (весят очень мало по сравнению с дефолтными, тем самым разгружают ядро xray от фильтрации мусора)
+## Преимущества:
+1) [Кастомный geoip](https://github.com/spanchy/2capyvpn-geoip) - добавлены все РФ диапазоны IP (даже забугорные) от VK Company (Mail.Ru, OK, VK, My.Games/VK Games) и Яндекса (Yandex, Yandex.Cloud, Yandex.Disk итд). Добавлены диапазоны и IP-адреса: **Discord** (спасибо, [@fatyzzz](https://github.com/fatyzzz/)), **Threema** и общий список **Заблокированных IP в РФ** (спасибо, [@fatyzzz](https://github.com/1andrevich/))
+2) [Кастомный geosite](https://github.com/spanchy/2capyvpn-geosite) - куча обновлений по сервисам, урезан максимально под этот роутинг, ни на что более не способен, т.е. чего нет в конфиге роутинга - значит выпилено (весят очень мало по сравнению с дефолтными, тем самым разгружают ядро xray от фильтрации мусора)
 
 ## Используется DNS от AdGuard (в режиме DoH):
 - Адрес сервера - https://dns.adguard-dns.com/dns-query (статические адреса 94.140.14.14, 94.140.15.15) с блоком рекламы (разгружаем ядро xray от лишних мегабайтов оперативной памяти, iPhone скажет спасибо). Утечек ДНС нет.
