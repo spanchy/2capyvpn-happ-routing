@@ -8,9 +8,9 @@
     "DomesticDNSType": "DoH",
     "DomesticDNSDomain": "https://dns.adguard.com/dns-query",
     "DomesticDNSIP": "94.140.15.15",
-    "Geoipurl": "https://github.com/spanchy/2capyvpn-geoip/releases/latest/download/geoip.dat",
-    "Geositeurl": "https://github.com/spanchy/2capyvpn-geosite/releases/latest/download/geosite.dat",
-    "LastUpdated": "1749740400",
+    "Geoipurl": "https://raw.githubusercontent.com/spanchy/2capyvpn-geoip/release/geoip.dat",
+    "Geositeurl": "https://raw.githubusercontent.com/spanchy/2capyvpn-geosite/release/geosite.dat",
+    "LastUpdated": "1749970800",
     "DnsHosts": {},
     "ProxySites": [
         "geosite:category-ban-ru",
@@ -21,20 +21,16 @@
         "geosite:custom"
     ],
     "ProxyIp": [
+        "geoip:ban-ru",
         "geoip:discord",
         "geoip:threema",
-        "geoip:ban-ru",
-        "198.154.182.0/24",
-        "159.127.48.0/20",
-        "159.127.128.0/17",
-        "159.127.44.0/22",
-        "159.127.64.0/18"
+        "geoip:custom"
     ],
     "BlockSites": [
         "geosite:win-spy",
         "geosite:torrent"
     ],
     "BlockIp": [],
-    "DomainStrategy": "AsIs",
+    "DomainStrategy": "IPIfNonMatch",
     "FakeDNS": "true"
 }
