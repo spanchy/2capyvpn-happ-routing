@@ -10,7 +10,7 @@
     "DomesticDNSIP": "94.140.15.15",
     "Geoipurl": "https://raw.githubusercontent.com/spanchy/2capyvpn-geoip/release/geoip.dat",
     "Geositeurl": "https://raw.githubusercontent.com/spanchy/2capyvpn-geosite/release/geosite.dat",
-    "LastUpdated": "1750611600",
+    "LastUpdated": "1756468800",
     "DnsHosts": {},
     "ProxySites": [
         "geosite:category-ban-ru",
