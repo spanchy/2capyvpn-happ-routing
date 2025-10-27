@@ -6,11 +6,11 @@
     "RemoteDNSDomain": "https://dns.adguard-dns.com/dns-query",
     "RemoteDNSIP": "94.140.14.14",
     "DomesticDNSType": "DoH",
-    "DomesticDNSDomain": "https://dns.adguard.com/dns-query",
+    "DomesticDNSDomain": "https://dns.adguard-dns.com/dns-query",
     "DomesticDNSIP": "94.140.15.15",
     "Geoipurl": "https://raw.githubusercontent.com/spanchy/2capyvpn-geoip/release/geoip.dat",
     "Geositeurl": "https://raw.githubusercontent.com/spanchy/2capyvpn-geosite/release/geosite.dat",
-    "LastUpdated": "1757656800",
+    "LastUpdated": "1761559200",
     "DnsHosts": {},
     "ProxySites": [
         "geosite:category-ban-ru",
@@ -27,8 +27,7 @@
         "geoip:custom"
     ],
     "BlockSites": [
-        "geosite:win-spy",
-        "geosite:torrent"
+        "geosite:win-spy"
     ],
     "BlockIp": [],
     "DomainStrategy": "AsIs",
