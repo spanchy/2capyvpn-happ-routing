@@ -32,10 +32,6 @@
         "geoip:custom"
     ],
     "DirectIp": [
-        "geoip:private",
-        "geoip:ru",
-        "geoip:kz",
-        "geoip:by",
         "geoip:direct"
     ],
     "BlockSites": [
