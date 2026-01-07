@@ -10,33 +10,28 @@
     "DomesticDNSIP": "94.140.15.15",
     "Geoipurl": "https://raw.githubusercontent.com/spanchy/2capyvpn-geoip/release/geoip.dat",
     "Geositeurl": "https://raw.githubusercontent.com/spanchy/2capyvpn-geosite/release/geosite.dat",
-    "LastUpdated": "1766386800",
+    "LastUpdated": "1767816000",
     "DnsHosts": {},
+    "RouteOrder": "block-direct-proxy",
     "ProxySites": [
-        "geosite:category-ban-ru",
-        "geosite:discord",
-        "geosite:youtube",
-        "geosite:tiktok",
-        "geosite:signal",
-        "geosite:twitch",
-        "geosite:custom"
+        "geosite:custom",
+        "geosite:tiktok"
     ],
     "DirectSites": [
+        "geosite:category-ru",
         "geosite:direct"
     ],
     "ProxyIp": [
         "geoip:ban-ru",
+        "geoip:custom",
         "geoip:discord",
         "geoip:threema",
-        "geoip:roblox",
-        "geoip:custom"
+        "geoip:roblox"
     ],
     "DirectIp": [
         "geoip:direct"
     ],
-    "BlockSites": [
-        "geosite:win-spy"
-    ],
+    "BlockSites": [],
     "BlockIp": [],
     "DomainStrategy": "IPIfNonMatch",
     "FakeDNS": "false"
