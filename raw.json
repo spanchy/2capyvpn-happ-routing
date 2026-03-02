@@ -24,8 +24,7 @@
         "geosite:microsoft",
         "geosite:origin",
         "geosite:riot",
-        "geosite:steam",
-        "geosite:twitch"
+        "geosite:steam"
     ],
     "ProxyIp": [],
     "DirectIp": [
