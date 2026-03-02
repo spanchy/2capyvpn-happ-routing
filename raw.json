@@ -1,44 +1,41 @@
 {
     "Name": "2CapyVPN Routing",
-    "GlobalProxy": "false",
+    "GlobalProxy": "true",
     "UseChunkFiles": "true",
-    "RemoteDNSType": "DoH",
-    "RemoteDNSDomain": "https://dns.adguard-dns.com/dns-query",
-    "RemoteDNSIP": "94.140.14.14",
+    "RemoteDns": "8.8.8.8",
+    "RemoteDNSType": "DoU",
+    "RemoteDNSDomain": "https://dns.google/dns-query",
+    "RemoteDNSIP": "8.8.8.8",
     "DomesticDNSType": "DoH",
     "DomesticDNSDomain": "https://dns.adguard-dns.com/dns-query",
     "DomesticDNSIP": "94.140.15.15",
     "Geoipurl": "https://raw.githubusercontent.com/spanchy/2capyvpn-geoip/release/geoip.dat",
     "Geositeurl": "https://raw.githubusercontent.com/spanchy/2capyvpn-geosite/release/geosite.dat",
-    "LastUpdated": "1767816000",
+    "LastUpdated": "1772456400",
     "DnsHosts": {},
     "RouteOrder": "block-direct-proxy",
-    "ProxySites": [
-        "geosite:category-ban-ru",
-        "geosite:category-cdn",
-        "geosite:custom",
-        "geosite:discord",
-        "geosite:signal",
-        "geosite:telegram",
-        "geosite:youtube",
-        "geosite:whatsapp",
-        "geosite:tiktok"
-    ],
+    "ProxySites": [],
     "DirectSites": [
+        "geosite:apple",
         "geosite:category-ru",
-        "geosite:direct"
+        "geosite:direct",
+        "geosite:epicgames",
+        "geosite:google-play",
+        "geosite:microsoft",
+        "geosite:origin",
+        "geosite:riot",
+        "geosite:steam",
+        "geosite:twitch",
     ],
-    "ProxyIp": [
-        "geoip:ban-ru",
-        "geoip:custom",
-        "geoip:discord",
-        "geoip:threema",
-        "geoip:roblox"
-    ],
+    "ProxyIp": [],
     "DirectIp": [
+        "geoip:private",
         "geoip:direct"
     ],
-    "BlockSites": [],
+    "BlockSites": [
+        "geosite:win-spy",
+        "geosite:torrent"
+    ],
     "BlockIp": [],
     "DomainStrategy": "IPIfNonMatch",
     "FakeDNS": "false"
