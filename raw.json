@@ -11,7 +11,7 @@
     "DomesticDNSIP": "77.88.8.8",
     "Geoipurl": "https://raw.githubusercontent.com/spanchy/2capyvpn-geoip/release/geoip.dat",
     "Geositeurl": "https://raw.githubusercontent.com/spanchy/2capyvpn-geosite/release/geosite.dat",
-    "LastUpdated": "1773905400",
+    "LastUpdated": "1776720600",
     "DnsHosts": {},
     "RouteOrder": "block-direct-proxy",
     "ProxySites": [],
