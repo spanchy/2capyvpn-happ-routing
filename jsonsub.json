@@ -32,7 +32,8 @@
   ],
   "DirectIp": [
     "geoip:direct",
-    "geoip:private"
+    "geoip:private",
+    "geoip:whitelist"
   ],
   "ProxySites": [
     "geosite:custom"
