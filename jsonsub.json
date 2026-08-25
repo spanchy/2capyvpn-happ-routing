@@ -12,7 +12,7 @@
   "DomesticDNSIP": "77.88.8.8",
   "Geoipurl": "https://cdn.jsdelivr.net/gh/spanchy/2capyvpn-geoip@release/geoip.dat",
   "Geositeurl": "https://cdn.jsdelivr.net/gh/spanchy/2capyvpn-geosite@release/geosite.dat",
-  "LastUpdated": "1787513940",
+  "LastUpdated": "1787655600",
   "DnsHosts": {
     "lkfl2.nalog.ru": "213.24.64.175",
     "lknpd.nalog.ru": "213.24.64.181"
@@ -27,7 +27,8 @@
     "geosite:microsoft",
     "geosite:origin",
     "geosite:riot",
-    "geosite:steam"
+    "geosite:steam",
+    "geosite:whitelist"
   ],
   "DirectIp": [
     "geoip:direct",
