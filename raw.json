@@ -1,44 +1,48 @@
 {
-    "Name": "2CapyVPN Routing",
-    "GlobalProxy": "true",
-    "UseChunkFiles": "true",
-    "RemoteDns": "8.8.8.8",
-    "RemoteDNSType": "DoU",
-    "RemoteDNSDomain": "https://dns.google/dns-query",
-    "RemoteDNSIP": "8.8.8.8",
-    "DomesticDns": "77.88.8.8",
-    "DomesticDNSType": "DoU",
-    "DomesticDNSDomain": "https://common.dot.dns.yandex.net/dns-query",
-    "DomesticDNSIP": "77.88.8.8",
-    "Geoipurl": "https://raw.githubusercontent.com/spanchy/2capyvpn-geoip/release/geoip.dat",
-    "Geositeurl": "https://raw.githubusercontent.com/spanchy/2capyvpn-geosite/release/geosite.dat",
-    "LastUpdated": "1780602300",
-    "DnsHosts": {},
-    "RouteOrder": "block-proxy-direct",
-    "ProxySites": [
-       "geosite:custom"
-    ],
-    "DirectSites": [
-        "geosite:apple",
-        "geosite:category-ru",
-        "geosite:direct",
-        "geosite:epicgames",
-        "geosite:google-play",
-        "geosite:microsoft",
-        "geosite:origin",
-        "geosite:riot",
-        "geosite:steam"
-    ],
-    "ProxyIp": [],
-    "DirectIp": [
-        "geoip:private",
-        "geoip:direct"
-    ],
-    "BlockSites": [
-        "geosite:win-spy",
-        "geosite:torrent"
-    ],
-    "BlockIp": [],
-    "DomainStrategy": "IPIfNonMatch",
-    "FakeDNS": "false"
+  "Name": "2CapyVPN Routing (Basic)",
+  "GlobalProxy": "true",
+  "UseChunkFiles": "true",
+  "RemoteDns": "8.8.8.8",
+  "RemoteDNSType": "DoU",
+  "RemoteDNSDomain": "https://dns.google/dns-query",
+  "RemoteDNSIP": "8.8.8.8",
+  "DomesticDns": "77.88.8.8",
+  "DomesticDNSType": "DoH",
+  "DomesticDNSDomain": "https://common.dot.dns.yandex.net/dns-query",
+  "DomesticDNSIP": "77.88.8.8",
+  "Geoipurl": "https://raw.githubusercontent.com/spanchy/2capyvpn-geoip/release/geoip.dat",
+  "Geositeurl": "https://raw.githubusercontent.com/spanchy/2capyvpn-geosite/release/geosite.dat",
+  "LastUpdated": "1787689800",
+  "DnsHosts": {
+    "lkfl2.nalog.ru": "213.24.64.175",
+    "lknpd.nalog.ru": "213.24.64.181"
+  },
+  "RouteOrder": "block-proxy-direct",
+  "DirectSites": [
+    "geosite:apple",
+    "geosite:category-ru",
+    "geosite:direct",
+    "geosite:epicgames",
+    "geosite:google-play",
+    "geosite:microsoft",
+    "geosite:origin",
+    "geosite:riot",
+    "geosite:steam"
+  ],
+  "DirectIp": [
+    "geoip:private",
+    "geoip:direct",
+    "geoip:whitelist"
+  ],
+  "ProxySites": [
+    "geosite:custom"
+  ],
+  "ProxyIp": [],
+  "BlockSites": [
+    "geosite:win-spy",
+    "geosite:torrent"
+  ],
+  "BlockIp": [],
+  "DomainStrategy": "IPOnDemand",
+  "FakeDNS": "false"
 }
