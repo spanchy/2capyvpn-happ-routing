@@ -10,8 +10,8 @@
   "DomesticDNSType": "DoH",
   "DomesticDNSDomain": "https://common.dot.dns.yandex.net/dns-query",
   "DomesticDNSIP": "77.88.8.8",
-  "Geoipurl": "https://github.com/spanchy/2capyvpn-geoip/releases/latest/download/geoip.dat",
-  "Geositeurl": "https://github.com/spanchy/2capyvpn-geosite/releases/latest/download/geosite.dat",
+  "Geoipurl": "https://raw.githubusercontent.com/spanchy/2capyvpn-geoip/release/geoip.dat",
+  "Geositeurl": "https://raw.githubusercontent.com/spanchy/2capyvpn-geosite/release/geosite.dat",
   "LastUpdated": "1787689800",
   "DnsHosts": {
     "lkfl2.nalog.ru": "213.24.64.175",
@@ -49,6 +49,6 @@
     "geosite:torrent"
   ],
   "BlockIp": [],
-  "DomainStrategy": "IPIfNonMatch",
+  "DomainStrategy": "IPOnDemand",
   "FakeDNS": false
 }
