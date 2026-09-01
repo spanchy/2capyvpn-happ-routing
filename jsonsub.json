@@ -49,6 +49,6 @@
     "geosite:torrent"
   ],
   "BlockIp": [],
-  "DomainStrategy": "IPOnDemand",
+  "DomainStrategy": "IPIfNonMatch",
   "FakeDNS": false
 }
