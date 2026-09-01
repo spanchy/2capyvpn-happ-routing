@@ -20,4 +20,3 @@
 - Все РФ ресурсы (`category-ru`), а так же специальные категории - в `DIRECT` (посмотреть конфигурацию можно [здесь](https://raw.githubusercontent.com/spanchy/2capyvpn-happ-routing/refs/heads/main/raw.json))
 - Все домены ОС Windows для слежки (`win-spy`) за пользователями - в `BLOCK`
 - Общеизвестные серверы-трекеры протокола BitTorrent - в `BLOCK`
-- Политика обработки DNS `IPOnDemand` - если домен не попал в указанные категории для него будет выполнено сопоставление по IP.
