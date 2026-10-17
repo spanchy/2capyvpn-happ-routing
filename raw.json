@@ -1,7 +1,7 @@
 {
   "Name": "2CapyVPN Routing (Basic)",
-  "GlobalProxy": "true",
-  "UseChunkFiles": "true",
+  "GlobalProxy": true,
+  "UseChunkFiles": true,
   "RemoteDns": "8.8.8.8",
   "RemoteDNSType": "DoU",
   "RemoteDNSDomain": "https://dns.google/dns-query",
@@ -44,5 +44,5 @@
   ],
   "BlockIp": [],
   "DomainStrategy": "IPIfNonMatch",
-  "FakeDNS": "false"
+  "FakeDNS": false
 }
